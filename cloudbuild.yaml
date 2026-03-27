@@ -8,5 +8,8 @@ steps:
         echo "Branch : $BRANCH_NAME"
         echo "Commit IDs : $COMMIT_SHA"
 
-options:
-  logging: CLOUD_LOGGING_ONLY
+#options:
+#  logging: CLOUD_LOGGING_ONLY
+
+
+logsBucket: gs://gcp-devops-course-bucket11
